@@ -1,4 +1,4 @@
-.login-page {
+.signup-page {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
   }
   
-  .login-form-container {
+  .signup-form-container {
     width: 45vw;
     height: 136vh;
     padding: 20px;
@@ -30,7 +30,7 @@
     margin-bottom: 60px;
   }
   
-.login-box{
+.signup-box{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,16 +39,16 @@
     height: 151%;
 }
 
-.login-box-container{
-    margin-top: 150px;
-    font-size: 28px;
+.signup-box-container{
+    margin-top: 30px;
+    font-size: 24px;
 }
 
 .subtitle-box{
-    font-size: 15px;
+    font-size: 13px;
     color: #746f6f;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
   h2 {
@@ -70,16 +70,43 @@
     text-align: start;
   }
   
+  input[type='name'],
   input[type='email'],
   input[type='password'],
   input[type='text'] {
     width:100%;
-    padding: 8px;
+    padding: 6px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
   }
   
+.radio-label-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 64%;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+  .radio-label{
+  font-size: 13px;
+  font-weight: normal;
+  color: #746f6f;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 15px;
+}
+
+input[type="radio"]{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
   .form-box{
     display: flex;
     flex-direction: column;
@@ -87,7 +114,7 @@
     align-items: center;
   }
 
-  .btn-login {
+  .btn-signup {
     display: block;
     width: 80%;
     padding: 10px;
@@ -96,10 +123,10 @@
     background-color: #ccc;
     color: #fff;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
-  .btn-login-active {
+  .btn-signup-active {
     display: block;
     width: 80%;
     padding: 10px;
@@ -108,7 +135,7 @@
     background-color: #5250FA;
     color: #fff;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
 .fontAwesomeIcon{
